@@ -18,13 +18,13 @@ export const PROJECTS = [
     {
         title: "StarGaze",
         description: "Developed a full-stack MERN (MongoDB, Express.js, React, Node.js) web application that provides users with access to NASA’s Astronomy Picture of the Day. The application features a dynamic search functionality, allowing users to search by date, title, month, or year, and includes infinite scrolling for a seamless gallery experience. The backend is designed with a RESTful API to fetch and store APOD data in MongoDB, ensuring efficient data retrieval and storage. The frontend is built with React, offering a responsive user interface and image galleries, and integrates user authentication for secure access to personalized features.",
-        technologies: ["NextJS, TailwindCSS, MongoDB, NextAuth"],
+        technologies: ["NextJS", "TailwindCSS", "MongoDB", "NextAuth"],
         link: "https://star-gaze.vercel.app/"
     },
     {
         title: "TradeVault",
         description: "TradeVault is a Next.js and MongoDB-based trade book application that helps traders log and analyze their stock market trades. It features secure authentication, trade entry with P&L tracking, and filters for easy search. With a responsive Tailwind CSS UI, it provides a seamless way to manage and review trading performance.",
-        technologies: ["NextJS, TailwindCSS, MongoDB, NextAuth"],
+        technologies: ["NextJS", "TailwindCSS", "MongoDB", "NextAuth"],
         link: "https://tradevault.vercel.app/"
     },
     {
