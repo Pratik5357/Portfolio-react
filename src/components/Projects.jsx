@@ -27,7 +27,7 @@ function Projects() {
                             </h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
                             {project.technologies.map((tech,index)=>(
-                                <span key={index} className="mr-2 p-1 rounded bg-neutral-600 text-purple-900 text-sm font-medium">{tech}</span>
+                                <span key={index} className="mr-2 p-1 rounded bg-neutral-600 text-white text-sm font-medium">{tech}</span>
                             ))}
                         </motion.div>
                     </div>
